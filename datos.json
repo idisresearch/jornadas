@@ -1,0 +1,358 @@
+{
+  "evento": {
+    "titulo": "Jornadas de Investigación",
+    "fechas": "2 – 6 de noviembre",
+    "lugar": "Universidad del Quindío"
+  },
+  "agenda": [
+    {
+      "id": "lunes",
+      "etiqueta": "Lunes 2",
+      "bloques": [
+        {
+          "hora": "17:30 – 18:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Fin de jornada" }]
+        }
+      ]
+    },
+    {
+      "id": "martes",
+      "etiqueta": "Martes 3",
+      "bloques": [
+        {
+          "hora": "8:00 – 8:30",
+          "items": [
+            {
+              "titulo": "Ceremonia de inauguración",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        },
+        {
+          "hora": "8:30 – 10:00",
+          "items": [
+            {
+              "titulo": "Más allá de los qubits: recursos cuánticos en la era NISQ",
+              "ponente": "Alejandro Fernández",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
+          ]
+        },
+        {
+          "hora": "10:00 – 10:30",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "10:30 – 12:00",
+          "items": [
+            {
+              "titulo": "Presentación Red RIPAISC",
+              "ponente": "Quique, Julio"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica"
+            }
+          ]
+        },
+        {
+          "hora": "12:30 – 14:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Almuerzo" }]
+        },
+        {
+          "hora": "14:00 – 15:30",
+          "items": [
+            {
+              "titulo": "Deconstruyendo la Industria 5.0",
+              "ponente": "Julio Hurtado"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica"
+            }
+          ]
+        },
+        {
+          "hora": "15:30 – 16:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "16:00 – 17:30",
+          "items": [
+            {
+              "titulo": "Presentación de grupos de investigación",
+              "ponente": "IDIS · Red HCI-Collab · GT 11 CLEI · GENESIS · UNIQUINDIO · UFPSO"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica"
+            }
+          ]
+        },
+        {
+          "hora": "17:30 – 18:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Fin de jornada" }]
+        }
+      ]
+    },
+    {
+      "id": "miercoles",
+      "etiqueta": "Miércoles 4",
+      "bloques": [
+        {
+          "hora": "8:30 – 10:00",
+          "items": [
+            {
+              "titulo": "Pensamiento computacional y enseñanza de la programación",
+              "ponente": "Manuel Ortega",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
+          ]
+        },
+        {
+          "hora": "10:00 – 10:30",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "10:30 – 12:00",
+          "items": [
+            {
+              "titulo": "Nueva crisis del software",
+              "ponente": "Enrique Moguel",
+              "lugar": "Ingeniería de Software Cuántico"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica"
+            }
+          ]
+        },
+        {
+          "hora": "12:30 – 14:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Almuerzo" }]
+        },
+        {
+          "hora": "14:00 – 15:30",
+          "items": [
+            {
+              "titulo": "Presentación de posters"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica"
+            }
+          ]
+        },
+        {
+          "hora": "15:30 – 16:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "16:00 – 17:30",
+          "items": [
+            {
+              "titulo": "Mesa redonda: Tendencias de la informática en la era de la IA"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica"
+            }
+          ]
+        },
+        {
+          "hora": "17:30 – 18:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Fin de jornada" }]
+        }
+      ]
+    },
+    {
+      "id": "jueves",
+      "etiqueta": "Jueves 5",
+      "bloques": [
+        {
+          "hora": "8:30 – 10:00",
+          "items": [
+            {
+              "titulo": "Reunión proyectos de investigación",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
+          ]
+        },
+        {
+          "hora": "10:00 – 10:30",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "10:30 – 12:00",
+          "items": [
+            { "titulo": "Reunión proyectos de investigación" },
+            { "titulo": "Curso de Computación Cuántica" }
+          ]
+        },
+        {
+          "hora": "12:30 – 14:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Almuerzo" }]
+        },
+        {
+          "hora": "14:00 – 15:30",
+          "items": [
+            { "titulo": "Tour ciudad" },
+            { "titulo": "Curso de Computación Cuántica" }
+          ]
+        },
+        {
+          "hora": "15:30 – 16:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "16:00 – 17:30",
+          "items": [
+            { "titulo": "Tour ciudad" },
+            { "titulo": "Curso de Computación Cuántica" }
+          ]
+        },
+        {
+          "hora": "17:30 – 18:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Fin de jornada" }]
+        }
+      ]
+    },
+    {
+      "id": "viernes",
+      "etiqueta": "Viernes 6",
+      "bloques": [
+        {
+          "hora": "8:30 – 10:00",
+          "items": [
+            {
+              "titulo": "Reunión proyectos de investigación",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
+          ]
+        },
+        {
+          "hora": "10:00 – 10:30",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "10:30 – 12:00",
+          "items": [
+            {
+              "titulo": "Sesión S1. INT",
+              "lugar": "Sala 5",
+              "nota": "Full papers: 81, 150, 98 · Short paper: 175"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica"
+            }
+          ]
+        },
+        {
+          "hora": "12:30 – 14:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Almuerzo" }]
+        },
+        {
+          "hora": "14:00 – 15:30",
+          "items": [
+            { "titulo": "Reunión proyectos de investigación" },
+            { "titulo": "Curso de Computación Cuántica" }
+          ]
+        },
+        {
+          "hora": "15:30 – 16:00",
+          "tipo": "pausa",
+          "items": [{ "titulo": "Refrigerio" }]
+        },
+        {
+          "hora": "16:00 – 17:30",
+          "items": [
+            {
+              "titulo": "Sesión S4. D",
+              "lugar": "Sala 5",
+              "nota": "Short papers: 43, 118"
+            },
+            {
+              "titulo": "Mesa redonda"
+            }
+          ]
+        },
+        {
+          "hora": "17:30 – 18:00",
+          "tipo": "destacado",
+          "items": [
+            { "titulo": "Acto de clausura y premiación a los mejores trabajos" }
+          ]
+        }
+      ]
+    }
+  ],
+  "ponentes": [
+    {
+      "nombre": "Alejandro Fernández",
+      "pais": "Argentina",
+      "foto": "",
+      "bio": "Director del centro de investigación LIFIA de la Universidad Nacional de La Plata (UNLP). Profesor Titular en la Facultad de Informática de la UNLP e Investigador Independiente en la CICPBA. Doctor por la FernUniversität Hagen (Alemania). Coordina el grupo de trabajo de Computación Cuántica del CLEI y es miembro fundador de la Red Iberoamericana para el Avance de la Ingeniería de Software Cuántico."
+    },
+    {
+      "nombre": "Manuel Ortega",
+      "pais": "España",
+      "foto": "",
+      "bio": "Catedrático de Universidad Castilla-La Mancha en Lenguajes y Sistemas Informáticos. Director del grupo de investigación CHICO de la UCLM entre 1991 y 2021. Coautor de más de 35 artículos en revistas indexadas, 3 libros internacionales, 13 nacionales y más de 200 publicaciones científicas."
+    },
+    {
+      "nombre": "Enrique Moguel",
+      "pais": "España",
+      "foto": "",
+      "bio": "Profesor Titular en la Universidad de Extremadura. Investigador del Grupo de Ingeniería de Software Quercus y del laboratorio SPILab (Laboratorio de Innovación Social y Pervasiva)."
+    },
+    {
+      "nombre": "William Giraldo",
+      "pais": "Colombia",
+      "foto": "",
+      "bio": "Profesor de la Universidad del Quindío. Ingeniero Electricista de la Universidad del Valle, Doctor en Informática de la Universidad Castilla-La Mancha. Líder del grupo SINFOCI."
+    },
+    {
+      "nombre": "Julio Ariel Hurtado",
+      "pais": "Colombia",
+      "foto": "",
+      "bio": "Conferencista de las Jornadas de Investigación."
+    },
+    {
+      "nombre": "Sandra Lorena Buitrón",
+      "pais": "Colombia",
+      "foto": "",
+      "bio": "Conferencista de las Jornadas de Investigación."
+    },
+    {
+      "nombre": "Dewar Rico",
+      "pais": "Colombia",
+      "foto": "",
+      "bio": "Ingeniero en Sistemas (UFPS-Cúcuta), Ingeniero en Telecomunicaciones (UNAD), Magíster en Ciencias Computacionales y Doctor en Ingeniería (UNAB)."
+    }
+  ]
+}
