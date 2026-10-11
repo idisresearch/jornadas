@@ -3,8 +3,8 @@
     "colorAcento": "#2563eb",
     "colorTexto": "#1a1a1a",
     "colorTextoSuave": "#6b7280",
-    "colorFondo": "#ffffff",
-    "colorFondoSuave": "#f9fafb",
+    "colorFondo": "#fffffa",
+    "colorFondoSuave": "#f9fabb",
     "colorBorde": "#e5e7eb",
     "fuente": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
     "anchoMaximo": "860px",
@@ -312,10 +312,10 @@
 
   "mapa": {
     "titulo": "Cómo llegar",
-    "descripcion": "El evento se realizará en el campus de la Universidad del Quindío, Armenia, Colombia.",
+    "descripcion": "El evento se realizará en el campus de la Universidad del Cauca, Popaayán, Colombia.",
     "embedUrl": "",
-    "enlaceExterno": "https://www.google.com/maps/search/Universidad+del+Quind%C3%ADo",
-    "direccion": "Cra. 15 #12N, Armenia, Quindío, Colombia"
+    "enlaceExterno": "<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.182425098543!2d-76.60099032503143!3d2.446243797532683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30030979580709%3A0xe7695b90f0ac275c!2sFacultad%20de%20Ingenier%C3%ADa%20Electronica%20y%20Telecomunicaciones%20-%20FIET!5e0!3m2!1ses-419!2sco!4v1791727224609!5m2!1ses-419!2sco" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>",
+    "direccion": "Cra. 2 #4N-140, Popayán, Cauca"
   },
 
   "footer": {
