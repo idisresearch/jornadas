@@ -20,13 +20,12 @@
   },
 
   "navegacion": [
-    { "etiqueta": "Evento", "ancla": "evento" },
-    { "etiqueta": "Agenda", "ancla": "agenda" },
-    { "etiqueta": "Ponentes", "ancla": "ponentes" },
-    { "etiqueta": "Inscripciones", "ancla": "inscripciones" },
-    { "etiqueta": "Mapa", "ancla": "mapa" }
-  ],
-
+  { "etiqueta": "Evento",        "archivo": "index.html" },
+  { "etiqueta": "Agenda",        "archivo": "agenda.html" },
+  { "etiqueta": "Ponentes",      "archivo": "ponentes.html" },
+  { "etiqueta": "Inscripciones", "archivo": "inscripciones.html" },
+  { "etiqueta": "Mapa",          "archivo": "mapa.html" }
+],
   "agenda": [
     {
       "id": "lunes",
