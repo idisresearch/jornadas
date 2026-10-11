@@ -13,7 +13,7 @@
 
   "evento": {
     "titulo": "Jornadas de Investigación en Ingeniería de Software Cuántico y Convergencia de la Industria 5.0",
-    "tituloCorto": "Jornadas IDIS",
+    "tituloCorto": "Jornadas de Investigación en Ingeniería de Software Cuántico y Convergencia de la Industria 5.0",
     "fechas": "2 – 6 de noviembre de 2026",
     "lugar": "Universidad del Cauca",
     "descripcion": "Un espacio de encuentro académico para compartir los avances de los grupos de investigación, fortalecer redes de colaboración y explorar las tendencias emergentes en computación cuántica, ingeniería de software e inteligencia artificial."
@@ -319,7 +319,7 @@
   },
 
   "footer": {
-    "texto": "Jornadas de Investigación · Universidad del Cauca · 2026",
+    "texto": "Jornadas de Investigación en Ingeniería de Software Cuántico y Convergencia de la Industria 5.0 - Grupo IDIS - Universidad del Cauca · 2026",
     "enlaces": [
       { "etiqueta": "Contacto", "url": "mailto:ahurtado@unicauca.edu.co" }
     ]
