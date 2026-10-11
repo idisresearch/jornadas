@@ -48,11 +48,19 @@ body {
   gap: 1.5rem;
 }
 .nav-brand {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
   font-weight: 600;
   font-size: 0.95rem;
   color: var(--color-texto);
   text-decoration: none;
   white-space: nowrap;
+}
+.nav-logo {
+  height: 32px;
+  width: auto;
+  display: block;
 }
 .nav-links {
   display: flex;
