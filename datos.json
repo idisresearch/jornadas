@@ -1,11 +1,11 @@
 {
-  "tema": {
-  "colorAcento": "#00ABE4",
-  "colorTexto": "#0a2540",
-  "colorTextoSuave": "#64748b",
+"tema": {
+  "colorAcento": "#0088B8",
+  "colorTexto": "#0A2540",
+  "colorTextoSuave": "#475569",
   "colorFondo": "#FFFFFF",
-  "colorFondoSuave": "#E9F1FA",
-  "colorBorde": "#d8e4ef",
+  "colorFondoSuave": "#DCE9F5",
+  "colorBorde": "#B3CADE",
   "fuente": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
   "anchoMaximo": "860px",
   "radioBorde": "8px"
