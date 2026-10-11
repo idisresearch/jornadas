@@ -26,14 +26,26 @@ function aplicarTema(t) {
 
 function renderNav(nav, ev, paginaActual) {
   const brand = $('nav-brand');
-  if (brand) brand.textContent = ev.tituloCorto || ev.titulo;
+  if (brand) {
+    brand.innerHTML = '';
+    if (ev.logo) {
+      const img = document.createElement('img');
+      img.src = ev.logo;
+      img.alt = ev.tituloCorto || ev.titulo;
+      img.className = 'nav-logo';
+      brand.appendChild(img);
+    }
+    const span = document.createElement('span');
+    span.textContent = ev.tituloCorto || ev.titulo;
+    brand.appendChild(span);
+  }
 
   const links = $('nav-links');
   if (!links) return;
   links.innerHTML = '';
   nav.forEach(item => {
-    const li = el('li');
-    const a = el('a');
+    const li = document.createElement('li');
+    const a = document.createElement('a');
     a.href = item.archivo;
     a.textContent = item.etiqueta;
     if (item.archivo === paginaActual) a.classList.add('active');
