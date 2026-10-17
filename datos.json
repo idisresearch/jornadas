@@ -12,13 +12,14 @@
 },
 
   "evento": {
-    "titulo": "Jornadas de Investigación en Ingeniería de Software Cuántico y Convergencia de la Industria 5.0",
-    "tituloCorto": "Jornadas de Investigación - 2026",
-    "fechas": "2 – 6 de noviembre de 2026",
-    "lugar": "Universidad del Cauca",
-    "logo": "img/logo.png",
-    "descripcion": "Un espacio de encuentro académico para compartir los avances de los grupos de investigación, fortalecer redes de colaboración y explorar las tendencias emergentes en computación cuántica, ingeniería de software e inteligencia artificial."
-  },
+  "titulo": "Jornadas de Investigación",
+  "tituloCorto": "Jornadas Inv.",
+  "logo": "img/logo.png",
+  "banner": "img/banner.png",
+  "fechas": "2 – 6 de noviembre de 2026",
+  "lugar": "Universidad del Quindío",
+  "descripcion": "..."
+},
 
   "navegacion": [
   { "etiqueta": "Evento",        "archivo": "index.html" },
