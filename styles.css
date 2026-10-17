@@ -229,3 +229,20 @@ footer a:hover { color: var(--color-acento); }
   .nav-brand { display: none; }
   .nav-inner { padding: 0.7rem 1.2rem; justify-content: center; }
 }
+
+.banner {
+  width: 100%;
+  background: var(--color-fondo-suave);
+  overflow: hidden;
+  border-bottom: 1px solid var(--color-borde);
+}
+.banner-img {
+  display: block;
+  width: 100%;
+  height: auto;
+  max-height: 280px;
+  object-fit: cover;
+}
+@media (max-width: 640px) {
+  .banner-img { max-height: 160px; }
+}
