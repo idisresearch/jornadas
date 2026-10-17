@@ -23,6 +23,12 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+.red-card-logo {
+  height: 48px;
+  width: auto;
+  display: block;
+}
+
 .wrap {
   max-width: var(--ancho-maximo);
   margin: 0 auto;
