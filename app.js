@@ -108,9 +108,9 @@ function renderAgenda(agenda) {
       const slot = el('div', 'slot');
       if (bloque.tipo) slot.dataset.tipo = bloque.tipo;
 
-      const time = el('time');
-      time.textContent = bloque.hora;
-      slot.appendChild(time);
+   const time = el('div', 'slot-time');
+   time.textContent = bloque.hora;
+   slot.appendChild(time);
 
       const body = el('div', 'slot-body');
       if (bloque.items.length > 1) body.classList.add('split');
