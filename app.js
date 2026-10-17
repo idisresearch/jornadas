@@ -227,6 +227,16 @@ function renderMapa(m) {
   }
 }
 
+function renderBanner(ev) {
+  const cont = document.getElementById('banner');
+  if (!cont || !ev.banner) return;
+  const img = document.createElement('img');
+  img.src = ev.banner;
+  img.alt = ev.titulo;
+  img.className = 'banner-img';
+  cont.appendChild(img);
+}
+
 // ---- Carga ----
 fetch('datos.json?v=' + Date.now())
   .then(r => r.json())
@@ -234,6 +244,7 @@ fetch('datos.json?v=' + Date.now())
     aplicarTema(data.tema);
     const pagina = document.body.dataset.page || '';
     renderNav(data.navegacion || [], data.evento, pagina);
+    renderBanner(data.evento);
     renderFooter(data.footer);
 
     if (pagina === 'evento')        renderEvento(data.evento);
