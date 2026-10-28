@@ -1,33 +1,31 @@
 {
-"tema": {
-  "colorAcento": "#0088B8",
-  "colorTexto": "#0A2540",
-  "colorTextoSuave": "#475569",
-  "colorFondo": "#FFFFFF",
-  "colorFondoSuave": "#C7DCF0",
-  "colorBorde": "#B3CADE",
-  "fuente": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
-  "anchoMaximo": "860px",
-  "radioBorde": "8px"
-},
-
+  "tema": {
+    "colorAcento": "#0088B8",
+    "colorTexto": "#0A2540",
+    "colorTextoSuave": "#475569",
+    "colorFondo": "#FFFFFF",
+    "colorFondoSuave": "#C7DCF0",
+    "colorBorde": "#B3CADE",
+    "fuente": "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif",
+    "anchoMaximo": "860px",
+    "radioBorde": "8px"
+  },
   "evento": {
-  "titulo": "Jornadas de Investigación en Ingeniería de Software Cuántico y Convergencia de la Industria 5.0",
-  "tituloCorto": "Jornadas de Investigación",
-  "logo": "img/logo.png",
-  "banner": "img/banner.png",
-  "fechas": "2 – 6 de noviembre de 2026",
-  "lugar": "Universidad del Cauca",
-  "descripcion": "El objetivo es promover un espacio de discusión y colaboración entre investigadores, estudiantes y profesionales en torno a los avances, desafíos y aplicaciones prácticas de la ingeniería de software cuántico y la convergencia tecnológica en la Industria 5.0. En el marco de la Red Iberoamericana para la Ingeniería de Software Cuántico y del Proyecto Deconstruction Kits for Critical Thinking, un modelo formativo para la evolución hacia ingenieros potenciadores activos frente a las tecnologías convergentes de la Industria 5.0, el grupo de investigación IDIS (Investigación y Desarrollo en Ingeniería del Software) de la Universidad del Cauca se complace en organizar estas jornadas académicas. Este evento tiene como objetivo principal fomentar el intercambio de conocimiento, colaboraciones y avances en el campo del software cuántico y de la convergencia tecnológica de la Industria 5.0, reuniendo a investigadores, estudiantes y profesionales apasionados por estas disciplinas transformadoras."
-},
-
+    "titulo": "Jornadas de Investigación en Ingeniería de Software Cuántico y Convergencia de la Industria 5.0",
+    "tituloCorto": "Jornadas de Investigación",
+    "logo": "img/logo.png",
+    "banner": "img/banner.png",
+    "fechas": "2 – 6 de noviembre de 2026",
+    "lugar": "Auditorio Gregorio Caicedo, Universidad del Cauca",
+    "descripcion": "El objetivo es promover un espacio de discusión y colaboración entre investigadores, estudiantes y profesionales en torno a los avances, desafíos y aplicaciones prácticas de la ingeniería de software cuántico y la convergencia tecnológica en la Industria 5.0. En el marco de la Red Iberoamericana para la Ingeniería de Software Cuántico y del Proyecto Deconstruction Kits for Critical Thinking, un modelo formativo para la evolución hacia ingenieros potenciadores activos frente a las tecnologías convergentes de la Industria 5.0, el grupo de investigación IDIS (Investigación y Desarrollo en Ingeniería del Software) de la Universidad del Cauca se complace en organizar estas jornadas académicas. Este evento tiene como objetivo principal fomentar el intercambio de conocimiento, colaboraciones y avances en el campo del software cuántico y de la convergencia tecnológica de la Industria 5.0, reuniendo a investigadores, estudiantes y profesionales apasionados por estas disciplinas transformadoras."
+  },
   "navegacion": [
-  { "etiqueta": "Evento",        "archivo": "index.html" },
-  { "etiqueta": "Agenda",        "archivo": "agenda.html" },
-  { "etiqueta": "Ponentes",      "archivo": "ponentes.html" },
-  { "etiqueta": "Inscripciones", "archivo": "inscripciones.html" },
-  { "etiqueta": "Mapa",          "archivo": "mapa.html" }
-],
+    { "etiqueta": "Evento", "archivo": "index.html" },
+    { "etiqueta": "Agenda", "archivo": "agenda.html" },
+    { "etiqueta": "Ponentes", "archivo": "ponentes.html" },
+    { "etiqueta": "Inscripciones", "archivo": "inscripciones.html" },
+    { "etiqueta": "Mapa", "archivo": "mapa.html" }
+  ],
   "agenda": [
     {
       "id": "lunes",
@@ -36,7 +34,12 @@
         {
           "hora": "8:30 a.m. – 18:00 p.m.",
           "tipo": "pausa",
-          "items": [{ "titulo": "Reuniones de Grupos de Investigación y Proyectos del Grupo IDIS" }]
+          "items": [
+            {
+              "titulo": "Reuniones de Grupos de Investigación y Proyectos del Grupo IDIS",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         }
       ]
     },
@@ -47,7 +50,10 @@
         {
           "hora": "8:00 a.m. – 8:30 a.m.",
           "items": [
-            { "titulo": "Ceremonia de Inauguración", "lugar": "Auditorio Gregorio Caicedo" }
+            {
+              "titulo": "Ceremonia de Inauguración",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
           ]
         },
         {
@@ -58,52 +64,93 @@
               "ponente": "Alejandro Fernández",
               "lugar": "Auditorio Gregorio Caicedo"
             },
-            { "titulo": "Curso de Computación Cuántica", "lugar": "Salón 105-IPET" }
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "10:00 a.m. – 10:30 a.m.",
           "tipo": "pausa",
-          "items": [{ "titulo": "Refrigerio" }]
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         },
         {
           "hora": "10:30 a.m. – 12:00 m",
           "items": [
-            { "titulo": "Presentación Red RIPAISC", "ponente": "Enrique Moguel, Julio Hurtado" },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Presentación Red RIPAISC",
+              "ponente": "Enrique Moguel, Julio Hurtado",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "12:30 – 14:00",
           "tipo": "pausa",
-          "items": [{ "titulo": "Almuerzo" }]
+          "items": [
+            {
+              "titulo": "Almuerzo",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         },
         {
           "hora": "14:00 – 15:30",
           "items": [
-            { "titulo": "Deconstruyendo la Industria 5.0", "ponente": "Julio Hurtado" },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Deconstruyendo la Industria 5.0",
+              "ponente": "Julio Hurtado",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "15:30 – 16:00",
           "tipo": "pausa",
-          "items": [{ "titulo": "Refrigerio" }]
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         },
         {
           "hora": "16:00 – 17:30",
           "items": [
             {
               "titulo": "Presentación de grupos de investigación",
-              "ponente": "IDIS · Red HCI-Collab · GT 11 CLEI · GENESIS · UNIQUINDIO · UFPSO"
+              "ponente": "IDIS · Red HCI-Collab · GT 11 CLEI · GENESIS · UNIQUINDIO · UFPSO",
+              "lugar": "Auditorio Gregorio Caicedo"
             },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "17:30 – 18:00",
           "tipo": "pausa",
-          "items": [{ "titulo": "Fin de jornada" }]
+          "items": [
+            {
+              "titulo": "Fin de jornada",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         }
       ]
     },
@@ -119,13 +166,21 @@
               "ponente": "Manuel Ortega",
               "lugar": "Auditorio Gregorio Caicedo"
             },
-            { "titulo": "Curso de Computación Cuántica", "lugar": "Salón 105-IPET" }
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "10:00 – 10:30",
           "tipo": "pausa",
-          "items": [{ "titulo": "Refrigerio" }]
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         },
         {
           "hora": "10:30 – 12:00",
@@ -133,40 +188,69 @@
             {
               "titulo": "Nueva crisis del software",
               "ponente": "Enrique Moguel",
-              "lugar": "Ingeniería de Software Cuántico"
+              "lugar": "Auditorio Gregorio Caicedo"
             },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "12:30 – 14:00",
           "tipo": "pausa",
-          "items": [{ "titulo": "Almuerzo" }]
+          "items": [
+            {
+              "titulo": "Almuerzo",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         },
         {
           "hora": "14:00 – 15:30",
           "items": [
-            { "titulo": "Presentaciones Cortas Trabajos en Curso" },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Presentaciones Cortas Trabajos en Curso",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "15:30 – 16:00",
           "tipo": "pausa",
-          "items": [{ "titulo": "Refrigerio" }]
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         },
         {
           "hora": "16:00 – 17:30",
           "items": [
-            { "titulo": "Acto Cultural y Reconocimientos",
-              "lugar": "Ingeniería de Software Cuántico"},
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Acto Cultural y Reconocimientos",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
         {
           "hora": "17:30 – 18:00",
           "tipo": "pausa",
-          "items": [{ "titulo": "Fin de jornada" }]
+          "items": [
+            {
+              "titulo": "Fin de jornada",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         }
       ]
     },
@@ -177,35 +261,95 @@
         {
           "hora": "8:30 – 10:00",
           "items": [
-            { "titulo": "Reunión proyectos de investigación", "lugar": "Auditorio Gregorio Caicedo" },
-            { "titulo": "Curso de Computación Cuántica", "lugar": "Salón 105-IPET" }
+            {
+              "titulo": "Reunión proyectos de investigación",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
-        { "hora": "10:00 – 10:30", "tipo": "pausa", "items": [{ "titulo": "Refrigerio" }] },
+        {
+          "hora": "10:00 – 10:30",
+          "tipo": "pausa",
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        },
         {
           "hora": "10:30 – 12:00",
           "items": [
-            { "titulo": "Reunión proyectos de investigación" },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Reunión proyectos de investigación",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
-        { "hora": "12:30 – 14:00", "tipo": "pausa", "items": [{ "titulo": "Almuerzo" }] },
+        {
+          "hora": "12:30 – 14:00",
+          "tipo": "pausa",
+          "items": [
+            {
+              "titulo": "Almuerzo",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        },
         {
           "hora": "14:00 – 15:30",
           "items": [
-            { "titulo": "Tour ciudad" },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Tour ciudad",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
-        { "hora": "15:30 – 16:00", "tipo": "pausa", "items": [{ "titulo": "Refrigerio" }] },
+        {
+          "hora": "15:30 – 16:00",
+          "tipo": "pausa",
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        },
         {
           "hora": "16:00 – 17:30",
           "items": [
-            { "titulo": "Tour ciudad" },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Tour ciudad",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
-        { "hora": "17:30 – 18:00", "tipo": "pausa", "items": [{ "titulo": "Fin de jornada" }] }
+        {
+          "hora": "17:30 – 18:00",
+          "tipo": "pausa",
+          "items": [
+            {
+              "titulo": "Fin de jornada",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        }
       ]
     },
     {
@@ -215,46 +359,99 @@
         {
           "hora": "8:30 – 10:00",
           "items": [
-            { "titulo": "Reunión proyectos de investigación", "lugar": "Auditorio Gregorio Caicedo" },
-            { "titulo": "Curso de Computación Cuántica", "lugar": "Salón 105-IPET" }
+            {
+              "titulo": "Reunión proyectos de investigación",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
-        { "hora": "10:00 – 10:30", "tipo": "pausa", "items": [{ "titulo": "Refrigerio" }] },
+        {
+          "hora": "10:00 – 10:30",
+          "tipo": "pausa",
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        },
         {
           "hora": "10:30 – 12:00",
           "items": [
             {
               "titulo": "Reunión de Grupos de Investigación y Proyectos Grupo IDIS",
-              "lugar": "Sala 5 Edicio Lvmen"
+              "lugar": "Auditorio Gregorio Caicedo"
             },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
-        { "hora": "12:30 – 14:00", "tipo": "pausa", "items": [{ "titulo": "Almuerzo" }] },
+        {
+          "hora": "12:30 – 14:00",
+          "tipo": "pausa",
+          "items": [
+            {
+              "titulo": "Almuerzo",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        },
         {
           "hora": "14:00 – 15:30",
           "items": [
-            { "titulo": "Reunión proyectos de investigación" },
-            { "titulo": "Curso de Computación Cuántica" }
+            {
+              "titulo": "Reunión proyectos de investigación",
+              "lugar": "Auditorio Gregorio Caicedo"
+            },
+            {
+              "titulo": "Curso de Computación Cuántica",
+              "lugar": "Salón 105-IPET"
+            }
           ]
         },
-        { "hora": "15:30 – 16:00", "tipo": "pausa", "items": [{ "titulo": "Refrigerio" }] },
+        {
+          "hora": "15:30 – 16:00",
+          "tipo": "pausa",
+          "items": [
+            {
+              "titulo": "Refrigerio",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
+        },
         {
           "hora": "16:00 – 17:30",
           "items": [
-            { "titulo": "Sesión S4. D", "lugar": "Sala 5", "nota": "Short papers: 43, 118" },
-            { "titulo": "Mesa redonda" }
+            {
+              "titulo": "Sesión S4. D",
+              "lugar": "Auditorio Gregorio Caicedo",
+              "nota": "Short papers: 43, 118"
+            },
+            {
+              "titulo": "Mesa redonda",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
           ]
         },
         {
           "hora": "17:30 – 18:00",
           "tipo": "destacado",
-          "items": [{ "titulo": "Acto de clausura y premiación a los mejores trabajos" }]
+          "items": [
+            {
+              "titulo": "Acto de clausura y premiación a los mejores trabajos",
+              "lugar": "Auditorio Gregorio Caicedo"
+            }
+          ]
         }
       ]
     }
   ],
-
   "ponentes": [
     {
       "nombre": "Alejandro Fernández",
@@ -299,7 +496,6 @@
       "bio": "Ingeniero en Sistemas (UFPS-Cúcuta), Ingeniero en Telecomunicaciones (UNAD), Magíster en Ciencias Computacionales y Doctor en Ingeniería (UNAB)."
     }
   ],
-
   "inscripciones": {
     "titulo": "Inscripciones",
     "descripcion": "La participación en las Jornadas es gratuita y abierta al público académico. Los cupos para el curso de Computación Cuántica son limitados.",
@@ -311,15 +507,13 @@
     "botonTexto": "Formulario de inscripción",
     "botonUrl": "#"
   },
-
   "mapa": {
     "titulo": "¿Cómo llegar?",
     "descripcion": "El evento se realizará en el campus de la Universidad del Cauca, Popayán, Colombia.",
-    "eenlaceExterno": "",
+    "enlaceExterno": "",
     "embedUrl": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3986.182425098543!2d-76.60099032503143!3d2.446243797532683!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30030979580709%3A0xe7695b90f0ac275c!2sFacultad%20de%20Ingenier%C3%ADa%20Electronica%20y%20Telecomunicaciones%20-%20FIET!5e0!3m2!1ses-419!2sco!4v1791727678615!5m2!1ses-419!2sco",
     "direccion": "Cra. 2 #4N-140, Popayán, Cauca"
   },
-
   "footer": {
     "texto": "Jornadas de Investigación - Grupo IDIS - Universidad del Cauca · 2026",
     "enlaces": [
