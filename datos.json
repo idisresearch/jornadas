@@ -47,7 +47,7 @@
         {
           "hora": "8:00 a.m. – 8:30 a.m.",
           "items": [
-            { "titulo": "Ceremonia de inauguración", "lugar": "Auditorio Gregorio Caicedo" }
+            { "titulo": "Ceremonia de Inauguración", "lugar": "Auditorio Gregorio Caicedo" }
           ]
         },
         {
@@ -146,7 +146,7 @@
         {
           "hora": "14:00 – 15:30",
           "items": [
-            { "titulo": "Presentación de posters" },
+            { "titulo": "Presentaciones Cortas Trabajos en Curso" },
             { "titulo": "Curso de Computación Cuántica" }
           ]
         },
@@ -158,7 +158,8 @@
         {
           "hora": "16:00 – 17:30",
           "items": [
-            { "titulo": "Mesa redonda: Tendencias de la informática en la era de la IA" },
+            { "titulo": "Acto Cultural y Reconocimientos",
+              "lugar": "Ingeniería de Software Cuántico"},
             { "titulo": "Curso de Computación Cuántica" }
           ]
         },
@@ -223,9 +224,8 @@
           "hora": "10:30 – 12:00",
           "items": [
             {
-              "titulo": "Sesión S1. INT",
-              "lugar": "Sala 5",
-              "nota": "Full papers: 81, 150, 98 · Short paper: 175"
+              "titulo": "Reunión de Grupos de Investigación y Proyectos Grupo IDIS",
+              "lugar": "Sala 5 Edicio Lvmen",
             },
             { "titulo": "Curso de Computación Cuántica" }
           ]
