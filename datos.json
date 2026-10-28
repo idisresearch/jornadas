@@ -498,14 +498,12 @@
   ],
   "inscripciones": {
     "titulo": "Inscripciones",
-    "descripcion": "La participación en las Jornadas es gratuita y abierta al público académico. Los cupos para el curso de Computación Cuántica son limitados.",
+    "descripcion": "La participación en las Jornadas es gratuita y abierta al público académico. El curso de Computación Cuántica es para miembros del Grupo IDIS y Aliados",
     "items": [
-      { "titulo": "Asistentes generales", "detalle": "Entrada libre con registro previo" },
-      { "titulo": "Curso de Computación Cuántica", "detalle": "Cupo limitado · Requiere inscripción" },
-      { "titulo": "Presentación de posters", "detalle": "Envío de resúmenes hasta el 20 de octubre" }
+      { "titulo": "Asistentes generales", "detalle": "Entrada libre con registro previo" }
     ],
     "botonTexto": "Formulario de inscripción",
-    "botonUrl": "#"
+    "botonUrl": "https://docs.google.com/forms/d/e/1FAIpQLSfeBfGqvACP-WR2v-COBExjMakY26egUINDrIG1c3tyDMLaGg/viewform?pli="
   },
   "mapa": {
     "titulo": "¿Cómo llegar?",
