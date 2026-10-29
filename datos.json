@@ -213,11 +213,11 @@
         "titulo": "Presentaciones Cortas Trabajos en Curso",
         "lugar": "Sala 10 Edificio LVMEN (Nuevo Edificio)",
         "charlas": [
-          { "titulo": "Hacia un Lenguaje de Programación Cuántico Basado en el Cálculo-π", "ponente": "Oscar Hoyos", "hora": "14:00 – 14:20" },
-          { "titulo": "Sistema Híbrido de Recomendación de Vacunación Basado en PLN y Motor de Reglas", "ponente": "Sandra Buitrón, Daniel Paz", "hora": "14:20 – 14:40" },
-          { "titulo": "CTMM: Modelo de Evaluación de Pensamiento Computacional", "ponente": "René Fabián Zúñiga", "hora": "14:40 – 15:00" },
-          { "titulo": "Hacia un Ambiente Colaborativo de Programación Cuántica", "ponente": "Caridad Velasco, Jeison Vallejo", "hora": "15:00 – 15:20" },
-          { "titulo": "Asistente Virtual y ChatBoot Inteligente para la Toma de Decisiones en el Sector Agrícola ", "ponente": "Johana Bambagué, William Romero", "hora": "15:20 – 15:40" }
+          { "titulo": "Hacia un Lenguaje de Programación Cuántico Basado en el Cálculo-π: ", "ponente": "Oscar Hoyos", "hora": "14:00 – 14:20" },
+          { "titulo": "Sistema Híbrido de Recomendación de Vacunación Basado en PLN y Motor de Reglas: ", "ponente": "Sandra Buitrón, Daniel Paz", "hora": "14:20 – 14:40" },
+          { "titulo": "CTMM: Modelo de Evaluación de Pensamiento Computacional: ", "ponente": "René Fabián Zúñiga", "hora": "14:40 – 15:00" },
+          { "titulo": "Hacia un Ambiente Colaborativo de Programación Cuántica: ", "ponente": "Caridad Velasco, Jeison Vallejo", "hora": "15:00 – 15:20" },
+          { "titulo": "Asistente Virtual y ChatBoot Inteligente para la Toma de Decisiones en el Sector Agrícola: ", "ponente": "Johana Bambagué, William Romero", "hora": "15:20 – 15:40" }
         ]
       },
       {
