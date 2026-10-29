@@ -207,16 +207,17 @@
           ]
         },
   {
-    "hora": "14:00 – 15:30",
+    "hora": "14:00 – 13:40",
     "items": [
       {
         "titulo": "Presentaciones Cortas Trabajos en Curso",
         "lugar": "Sala 10 Edificio LVMEN (Nuevo Edificio)",
         "charlas": [
-          { "titulo": "Charla 1", "ponente": "Ponente 1", "hora": "14:00 – 14:20" },
-          { "titulo": "Charla 2", "ponente": "Ponente 2", "hora": "14:20 – 14:40" },
-          { "titulo": "Charla 3", "ponente": "Ponente 3", "hora": "14:40 – 15:05" },
-          { "titulo": "Charla 4", "ponente": "Ponente 4", "hora": "15:05 – 15:30" }
+          { "titulo": "Hacia un Lenguaje de Programación Cuántico Basado en el Cálculo-π", "ponente": "Oscar Hoyos", "hora": "14:00 – 14:20" },
+          { "titulo": "Sistema Híbrido de Recomendación de Vacunación Basado en PLN y Motor de Reglas", "ponente": "Sandra Buitrón, Daniel Paz", "hora": "14:20 – 14:40" },
+          { "titulo": "CTMM: Modelo de Evaluación de Pensamiento Computacional", "ponente": "René Fabián Zúñiga", "hora": "14:40 – 15:00" },
+          { "titulo": "Hacia un Ambiente Colaborativo de Programación Cuántica", "ponente": "Caridad Velasco, Jeison Vallejo", "hora": "15:00 – 15:20" },
+          { "titulo": "Asistente Virtual y ChatBoot Inteligente para la Toma de Decisiones en el Sector Agrícola ", "ponente": "Johana Bambagué, William Romero", "hora": "15:20 – 15:40" }
         ]
       },
       {
@@ -226,12 +227,12 @@
     ]
     },
         {
-          "hora": "15:30 – 16:00",
+          "hora": "16:00",
           "tipo": "pausa",
           "items": [
             {
-              "titulo": "Refrigerio",
-              "lugar": "Auditorio Gregorio Caicedo"
+              "titulo": "Traslado al acto cultural - refrigerio",
+              "lugar": "Vicerrectoría de Cultura - Casa Mosquera"
             }
           ]
         },
