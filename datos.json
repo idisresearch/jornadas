@@ -206,19 +206,25 @@
             }
           ]
         },
-        {
-          "hora": "14:00 – 15:30",
-          "items": [
-            {
-              "titulo": "Presentaciones Cortas Trabajos en Curso<br><small> Hacia un lenguaje de programación cuántica basado en el algebra de procesos — Oscar Hoyos A<br> CTMM Modelo de Medición del Pensamiento Computacional — René Zúñiga<br>3. Charla tres — Ponente C<br>4. Charla cuatro — Ponente D</small>"",
-              "lugar": "Sala 10 Edificio LVMEN (Nuevo Edificio)"
-            },
-            {
-              "titulo": "Curso de Computación Cuántica",
-              "lugar": "Salón 105-IPET"
-            }
-          ]
-        },
+  {
+    "hora": "14:00 – 15:30",
+    "items": [
+      {
+        "titulo": "Presentaciones Cortas Trabajos en Curso",
+        "lugar": "Sala 10 Edificio LVMEN (Nuevo Edificio)",
+        "charlas": [
+          { "titulo": "Charla 1", "ponente": "Ponente 1", "hora": "14:00 – 14:20" },
+          { "titulo": "Charla 2", "ponente": "Ponente 2", "hora": "14:20 – 14:40" },
+          { "titulo": "Charla 3", "ponente": "Ponente 3", "hora": "14:40 – 15:05" },
+          { "titulo": "Charla 4", "ponente": "Ponente 4", "hora": "15:05 – 15:30" }
+        ]
+      },
+      {
+        "titulo": "Curso de Computación Cuántica",
+        "lugar": "Salón 105-IPET"
+      }
+    ]
+    },
         {
           "hora": "15:30 – 16:00",
           "tipo": "pausa",
