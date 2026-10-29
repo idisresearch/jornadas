@@ -210,7 +210,7 @@
           "hora": "14:00 – 15:30",
           "items": [
             {
-              "titulo": "Presentaciones Cortas Trabajos en Curso",
+              "titulo": "Presentaciones Cortas Trabajos en Curso<br><small> Hacia un lenguaje de programación cuántica basado en el algebra de procesos — Oscar Hoyos A<br> CTMM Modelo de Medición del Pensamiento Computacional — René Zúñiga<br>3. Charla tres — Ponente C<br>4. Charla cuatro — Ponente D</small>"",
               "lugar": "Sala 10 Edificio LVMEN (Nuevo Edificio)"
             },
             {
