@@ -116,25 +116,8 @@ function renderAgenda(agenda) {
       if (bloque.items.length > 1) body.classList.add('split');
 
       bloque.items.forEach(item => {
-        const div = el('div', 'item');
-        const h3 = el('h3');
-        h3.textContent = item.titulo;
-        div.appendChild(h3);
-
-        const meta = [item.ponente, item.lugar].filter(Boolean).join(' · ');
-        if (meta) {
-          const p = el('p');
-          p.textContent = meta;
-          div.appendChild(p);
-        }
-        if (item.nota) {
-          const n = el('p', 'nota');
-          n.textContent = item.nota;
-          div.appendChild(n);
-        }
-        body.appendChild(div);
+      body.appendChild(renderAgendaItem(item));
       });
-
       slot.appendChild(body);
       dayDiv.appendChild(slot);
     });
@@ -142,6 +125,52 @@ function renderAgenda(agenda) {
     cont.appendChild(dayDiv);
   });
 }
+
+function renderAgendaItem(item) {
+  const div = el('div', 'item');
+
+  const h3 = el('h3');
+  h3.textContent = item.titulo;
+  div.appendChild(h3);
+
+  const meta = [item.ponente, item.lugar].filter(Boolean).join(' · ');
+  if (meta) {
+    const p = el('p');
+    p.textContent = meta;
+    div.appendChild(p);
+  }
+
+  // NUEVO: charlas en secuencia dentro del mismo ítem
+  if (Array.isArray(item.charlas) && item.charlas.length) {
+    const ol = el('ol', 'item-charlas');
+    item.charlas.forEach(c => {
+      const li = el('li');
+
+      const t = el('span', 'charla-titulo');
+      t.textContent = c.titulo;
+      li.appendChild(t);
+
+      const sub = [c.ponente, c.hora].filter(Boolean).join(' · ');
+      if (sub) {
+        const s = el('span', 'charla-meta');
+        s.textContent = sub;
+        li.appendChild(s);
+      }
+
+      ol.appendChild(li);
+    });
+    div.appendChild(ol);
+  }
+
+  if (item.nota) {
+    const n = el('p', 'nota');
+    n.textContent = item.nota;
+    div.appendChild(n);
+  }
+
+  return div;
+}
+
 
 function renderPonentes(lista) {
   const cont = $('ponentes-container');
